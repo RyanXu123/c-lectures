@@ -1,6 +1,6 @@
-﻿# 讲义仓库自动同步：有改动就提交并推到 GitHub（远程是私有仓库 RyanXu123/c-lectures）
+# 讲义仓库自动同步：有改动就提交并推到 GitHub（推到 origin 这个远程）
 #
-# 跟 cpp-demo 里那个 sync.ps1 一套路子：自己找 git、直连失败自动走本地代理、每一步写日志。
+# 跟配套代码仓库里那个 sync.ps1 一套路子：自己找 git、直连失败自动走本地代理、每一步写日志。
 
 $ErrorActionPreference = "Stop"
 Set-Location $PSScriptRoot
